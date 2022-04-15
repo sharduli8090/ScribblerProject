@@ -1,0 +1,29 @@
+/* CSS For Header */
+
+#header{
+    display:flex;
+    justify-content:space-between;
+}
+
+#company{
+    font-family: 'Montez', cursive;
+    color:blue;
+    font-size:35px; 
+}
+
+#tagline{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.sign{
+    height:30px;
+    width:90px;
+    color:white;
+    background-color:blue;
+}
+
+#midButton{
+    display:flex;
+    justify-content:center;
+    height:100%;
+}
