@@ -6,3 +6,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+/* for center buttons */
+#centerButton{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:600px;
+}
+
+.cenBut{
+    height:30px;
+    background-color:orange;
+}
