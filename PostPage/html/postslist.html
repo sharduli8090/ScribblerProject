@@ -2,21 +2,42 @@
 <html>
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <!-- links to css file and and fonts -->
+    <link rel="stylesheet" href="../styles/postslist.css">
+    <link rel="stylesheet" href="../../CommonStyles/indexc.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    
+    <!-- title of the page -->
+    <title>Posts Page</title>
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
 </head>
 
+<!-- body -->
 <body>
+
+    <!-- Header Div - Added using JavaScript -->
+    <div id="header"></div>
+
+
     <!-- TODO: Include code for header here -->
 
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
-    <div>
+    <div id="mainDiv">
 
         <!-- post 1 starts here -->
-        <div>
-            <div>
+        <div id="myDiv1" class="postCards">
+            <div class="nameCard">
                 <p>Srishti Gupta</p>
             </div>
 
@@ -36,8 +57,8 @@
         <!-- post 1 ends here -->
 
         <!-- post 2 starts here -->
-        <div>
-            <div>
+        <div id="myDiv2" class="postCards">
+            <div class="nameCard">
                 <p>Colby Fayock</p>
             </div>
 
@@ -57,8 +78,8 @@
         <!-- post 2 ends here -->
 
         <!-- post 3 starts here -->
-        <div>
-            <div>
+        <div id="myDiv3" class="postCards">
+            <div class="nameCard">
                 <p>Yazeed Bzadough</p>
             </div>
 
@@ -78,8 +99,8 @@
         <!-- post 3 ends here -->
 
         <!-- post 4 starts here -->
-        <div>
-            <div>
+        <div id="myDiv4" class="postCards">
+            <div class="nameCard">
                 <p>Cedd Burge</p>
             </div>
 
@@ -100,8 +121,8 @@
         <!-- post 4 ends here -->
 
         <!-- post 5 starts here -->
-        <div>
-            <div>
+        <div id="myDiv5" class="postCards">
+            <div class="nameCard">
                 <p>Srishti Gupta</p>
             </div>
 
@@ -125,6 +146,15 @@
 
     </div>
     <!-- list of all posts ends here -->
+
+
+     <!-- Connected Scripts -->
+     <script src="../../CommonScripts/indexc.js"></script>
+     <script src="../scripts/postslist.js"></script>
+ 
+     <!-- Bootstrap Script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>

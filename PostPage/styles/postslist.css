@@ -1,0 +1,25 @@
+body {
+    background-color: #ffeedd;
+}
+
+#mainDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.postCards{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 600px;
+    background-color: grey;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.nameCard{
+    background-color: aqua;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
