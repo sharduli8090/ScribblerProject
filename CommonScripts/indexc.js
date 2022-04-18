@@ -64,3 +64,4 @@ var template = '<div id="title">'+
 '</div>'+
 '</div>';
 document.getElementById('header').innerHTML += template;
+

@@ -6,20 +6,62 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 3%;
 }
 
 .postCards{
     display: flex;
     justify-content: space-evenly;
-    height: 200px;
+    height: 160px;
     width: 600px;
-    background-color: grey;
+    background-color: rgb(233, 230, 230);
     margin: 20px;
     border-radius: 15px;
+    box-shadow: 4px 4px 20px  #000000;
+}
+.postCards:hover{
+    cursor: default;
+    box-shadow: 6px 6px 35px  #000000;
 }
 
 .nameCard{
-    background-color: aqua;
+    background-color: white;
+    color: grey;
+    font-weight: bold;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    padding-top: 9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.trashBin:hover{
+cursor: pointer;
+}
+
+.menuIcon{
+    float:right;
+    margin-top: 0px;
+    margin-right: 2%;
+}
+
+.menuIcon:hover{
+    cursor: pointer;
+}
+
+.subCard{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: rgb(104, 102, 102);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contentCard{
+    padding-left: 4%;
+    padding-right: 2%;
 }
