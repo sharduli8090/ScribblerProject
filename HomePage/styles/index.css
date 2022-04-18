@@ -20,3 +20,65 @@ body {
     height:30px;
     background-color:orange;
 }
+
+
+
+/* For the Create Post Modal */
+.modalClass {
+    display: none; /* Hidden by default */
+    position: fixed;  /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .contentMod {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .closermod {
+    color: #aaaaaa;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* For Close Button */
+  .closermod:hover,
+  .closermod:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+   
+  #modHeadFlex{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #headingPost{
+    color: grey;
+    font-size: 20px;
+  }
+
+  #formGroupExampleInput2{
+    height:300px;
+  }
+
+  #btn-create{
+    text-align: center;
+  }
+
+  #btn-create-in{
+    width: 200px;
+  }
