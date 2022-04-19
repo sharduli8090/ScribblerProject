@@ -19,6 +19,8 @@ body {
     border-radius: 15px;
     box-shadow: 4px 4px 20px  #000000;
 }
+
+
 .postCards:hover{
     cursor: default;
     box-shadow: 6px 6px 35px  #000000;
@@ -37,7 +39,7 @@ body {
 }
 
 .trashBin:hover{
-cursor: pointer;
+    cursor: pointer;
 }
 
 .menuIcon{
@@ -65,3 +67,163 @@ cursor: pointer;
     padding-left: 4%;
     padding-right: 2%;
 }
+
+
+
+/* Media Queries For the Responsivness of the Cards and displaying them in described order */
+
+@media screen and (max-width: 450px)  {
+    .postCards{
+        height:auto;
+        width:120px;
+    }
+    .nameCard{
+        padding-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 50px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 40px;
+    }
+    .menuIcon{
+        float: left;
+    }
+  }
+  
+@media screen and (max-width: 585px) and (min-width: 450px) {
+    .postCards{
+        height:auto;
+        width:168px;
+    }
+    .nameCard{
+        padding-top: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 50px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 25px;
+    }
+    .menuIcon{
+        float: left;
+    }
+  }
+  
+  @media screen and (max-width: 708px) and (min-width: 585px) {
+    .postCards{
+        height:auto;
+        width:200px;
+    }
+    .nameCard{
+        padding-top: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 50px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 25px;
+    }
+    .menuIcon{
+        float: left;
+    }
+  }
+  @media screen and (max-width: 802px) and (min-width: 708px) {
+    .postCards{
+        height:auto;
+        width:300px;
+    }
+    .nameCard{
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) and (min-width: 802px) {
+    .postCards{
+        height:auto;
+        width:350px;
+    }
+    .nameCard{
+        padding-top: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) and (min-width: 900px) {
+    .postCards{
+        height:auto;
+        width:350px;
+    }
+    .nameCard{
+        padding-top: 85px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) and (min-width: 1000px) {
+    .postCards{
+        height:auto;
+        width:460px;
+    }
+    .nameCard{
+        padding-top: 85px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subCard{
+        padding-top: 1%;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .contentCard{
+        padding-left: 4%;
+        padding-right: 25px;
+    }
+  }
+  

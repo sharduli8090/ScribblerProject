@@ -40,15 +40,10 @@ for(var i=0;i<postlistArr.length;i++){
             '<p>'+postlistArr[i].subject+'</p>'+
             '<span>'+
             '<i class="fa fa-trash fa-lg trashBin"></i>'+
-                // '<!-- TODO: Include Font Awesome icon for delete icon here -->'+
             '</span>'+
         '</div>'+
         '<div class="contentCard">'+
         '<p style="margin-bottom:0px;padding-bottom:0px;">'+shortCont+'...</p>'+
-        // '<span >'+
-        
-            '<!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->'+
-        // '</span>'+
         '</div>'+
         '<i class="fa fa-ellipsis-h fa-lg menuIcon"></i>'+
     '</div>';
