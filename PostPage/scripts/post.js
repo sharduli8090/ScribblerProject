@@ -43,14 +43,23 @@ function likeCount(){
     var liker = '<i class="fa fa-thumbs-up"></i>&nbsp; Liked';
     document.getElementById('likeBtn').innerHTML = liker;
 
+    // incrementing like count
     count += 1;
+
+    // checking if only one like is there or more than that
+    // if one like is there
     if(count == 1){
+
         var cnt = '1 person likes this!';
         document.getElementById('likeText').innerHTML = cnt;
+
     }
+    // else more than one like is there
     else{
+
         var cnt = count+' people liked this!';
         document.getElementById('likeText').innerHTML = cnt;
+
     }
 }
 
@@ -84,4 +93,31 @@ function editable(){
     var templateContent = '<div id="content" contenteditable="true" class="editor">'+contentText+'</div>';
     document.getElementById('contentHead').innerHTML = templateContent;
 
+}
+
+// For Commenting Feat
+function commentIt(){
+
+    // Getting the comment from textarea box
+    var CommentText = document.getElementById('textareaBox').value;
+
+    // Checking if the comment is not empty
+    if(CommentText!=""){
+    
+        // new comment
+        var textCom = '<p id="CommentTexter">'+CommentText+'</p>';
+
+        // previous comments
+        var prevCont = document.getElementById('allComments').innerHTML;
+
+        // adding new comment
+        document.getElementById('allComments').innerHTML = textCom;
+
+        // placing older comments below the new comment
+        document.getElementById('allComments').innerHTML += prevCont;
+
+        // emptying the textarea box after saving the comment
+        document.getElementById('textareaBox').value = "";
+    
+    }
 }

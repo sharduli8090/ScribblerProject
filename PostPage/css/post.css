@@ -74,3 +74,55 @@
     margin-top: 1%;
     color: rgb(112, 112, 112);
 }
+
+/* For Comment Feat */
+
+/* Whole Comment Div */
+#commentDiv{
+    margin-left:6% ;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+
+/* For Comment Writing Box */
+textarea{
+    color: grey;
+    border: 1px solid gray;
+}
+
+/* Comment Writing Box on Focus */
+textarea:focus{
+    color: black;
+    outline:1px solid rgb(10, 190, 255);
+}
+
+/* For the Comment Button */
+#commentBtn{
+    margin-top: 1%;
+    width: 100px;
+}
+
+/* For the All Comments Heading */
+#comHead{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/* For the indiviual comments added */
+#CommentTexter{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20%;
+    border-left: 17px solid rgb(191, 189, 189);
+    border-right:17px solid rgb(232, 230, 230) ;
+    border-top: 27px solid rgb(191, 189, 189);
+    border-bottom: 13px solid rgb(191, 189, 189);
+    font-size: 17px;    
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+}

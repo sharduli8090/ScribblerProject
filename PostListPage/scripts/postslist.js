@@ -86,7 +86,7 @@ displayCards(postlistArr);
 
 // To open the Next Post Page
 function openPageCall(ind){
-    window.open('../../ThirdPage/html/posts.html');
+    window.open('../../PostPage/html/post.html');
 }
 
 

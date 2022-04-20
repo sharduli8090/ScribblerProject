@@ -9,6 +9,8 @@ body {
 
 
 /* for center buttons */
+
+/* Whole center button Div */
 #centerButton{
     display: flex;
     justify-content: center;
@@ -16,6 +18,7 @@ body {
     height:600px;
 }
 
+/* For indiviual center button */
 .cenBut{
     height:30px;
     background-color:orange;
@@ -38,6 +41,7 @@ body {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
+  /* Modal content */
   .contentMod {
     background-color: #fefefe;
     margin: auto;
@@ -46,6 +50,7 @@ body {
     width: 80%;
   }
   
+  /* Close button */
   .closermod {
     color: #aaaaaa;
     float: left;
@@ -54,7 +59,7 @@ body {
   }
   
   
-  /* For Close Button */
+  /* For Close Button on hover and focus */
   .closermod:hover,
   .closermod:focus {
     color: #000;
@@ -62,20 +67,24 @@ body {
     cursor: pointer;
   }
    
+  /* For modal Heading and Close button */
   #modHeadFlex{
     display: flex;
     justify-content: space-between;
   }
   
+  /* For the Modal Head */
   #headingPost{
     color: grey;
     font-size: 20px;
   }
 
+  /* For the input box in modal */
   #formGroupExampleInput2{
     height:300px;
   }
 
+  /* For the create button in the modal */
   #btn-create{
     text-align: center;
   }
