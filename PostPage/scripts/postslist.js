@@ -41,6 +41,7 @@ function displayCards(postlistArr){
     var textCont = postlistArr[i].content;
     var shortCont = textCont.substring(0,140);
 
+
     // Template of the card
     var template = '<div id="myDiv1" class="postCards">'+
     '<div class="nameCard">'+
@@ -69,7 +70,7 @@ function displayCards(postlistArr){
         '<div class="contentCard">'+
         '<p style="margin-bottom:0px;padding-bottom:0px;">'+shortCont+'...</p>'+
         '</div>'+
-        '<i class="fa fa-ellipsis-h fa-lg menuIcon"></i>'+
+        '<i class="fa fa-ellipsis-h fa-lg menuIcon" onclick=openPageCall('+i+')></i>'+
     '</div>';
 
     // Adding the template of card to the window
@@ -81,6 +82,18 @@ function displayCards(postlistArr){
 // Calling the display card function
 displayCards(postlistArr);
 
+// function displayAPost(ind){
+//     var subTemp = postlistArr[i].subject;
+//     var nameTemp = postlistArr[i].name;
+//     var contTemp = postlistArr[i].content;
+//     document.getElementById('subHead').innerHTML = subTemp;
+
+// }
+
+function openPageCall(ind){
+    window.open('../../ThirdPage/html/posts.html');
+    // displayAPost(ind);
+}
 
 // Function to delete a particular card
 function deleteCard(num){
@@ -117,6 +130,4 @@ function confirmCall(ind){
     }
 
 }
-
-
 

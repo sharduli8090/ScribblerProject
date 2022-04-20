@@ -1,0 +1,64 @@
+#subHead{
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headName{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 100px;
+}
+
+#nameHead{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+#contentHead{
+    text-align: justify;
+    font-family: 'Inconsolata', monospace;
+    margin: 6%;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#edit{
+    height: 40px;
+    width: 50px;
+    border: 1px solid rgb(9, 7, 7);
+    background-color: rgb(255, 0, 195);
+}
+
+#edit:hover{
+    border: 2px solid rgb(255, 0, 221);
+    background-color: rgb(220, 32, 176);
+    color: white;
+}
+
+#allCont{
+    margin-top: 3%;
+}
+
+
+/* [contenteditable] {
+    font-size: 26px;
+    padding: .25em 0em;
+    margin: 1em 0;
+    transition: padding .3s ease-in-out;
+  }
+  
+  [contenteditable]:hover,
+  [contenteditable]:focus {
+    padding: .25em;
+  }
+  
+  [contenteditable]:hover {
+    background: #fafafa;
+    outline: 2px solid #eee;
+  }
+  
+  [contenteditable]:focus {
+    background: #efefef;
+    outline: 2px solid blue;
+  } */
