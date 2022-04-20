@@ -1,10 +1,13 @@
+/* For background colour */
 body {
     background-color: #ffeedd;
 }
 
 
+
 /* For the Post Cards */
 
+/* For making all the post cards in a flex */
 #mainDiv{
     display: flex;
     justify-content: space-around;
@@ -12,6 +15,7 @@ body {
     margin-top: 3%;
 }
 
+/* For indiviual post cards */
 .postCards{
     display: flex;
     justify-content: space-evenly;
@@ -23,12 +27,13 @@ body {
     box-shadow: 4px 4px 20px  #000000;
 }
 
-
+/* When we hover on any postcard */
 .postCards:hover{
     cursor: default;
     box-shadow: 6px 6px 35px  #000000;
 }
 
+/* For the author name in the post card */
 .nameCard{
     background-color: white;
     color: grey;
@@ -41,20 +46,24 @@ body {
     text-align: center;
 }
 
+/* When we hover on the trash icon */
 .trashBin:hover{
     cursor: pointer;
 }
 
+/* For the menu icon or ellipsis icon */
 .menuIcon{
     float:right;
     margin-top: 0px;
     margin-right: 2%;
 }
 
+/* When we hover on menuIcon or elliosis icon */
 .menuIcon:hover{
     cursor: pointer;
 }
 
+/* For the Subject on each card */
 .subCard{
     display: flex;
     justify-content: space-between;
@@ -66,6 +75,7 @@ body {
     font-weight: bold;
 }
 
+/* For the content on each card */
 .contentCard{
     padding-left: 4%;
     padding-right: 2%;
@@ -233,6 +243,7 @@ body {
 
   /* For the Confirmation Modal */
 
+  /* For the whole modal position */
   .modalClass {
     display: none; /* Hidden by default */
     position: fixed;  /* Stay in place */
@@ -247,6 +258,7 @@ body {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
+  /* For the content on the modal */
   .contentMod {
     background-color: #fefefe;
     margin: auto;
@@ -255,6 +267,7 @@ body {
     width: 20%;
   }
   
+  /* For the Yes/No button on the modal */
   #modHeadFlex{
     display: flex;
     justify-content: space-around;

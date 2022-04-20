@@ -1,30 +1,28 @@
 /* CSS For Header */
 
+/* For making the header a flex */
 #header{
     display:flex;
     justify-content:space-between;
     margin: 5px;
 }
 
+/* For the Name of the Company */
 #company{
     font-family: 'Montez', cursive;
     color:blue;
     font-size:35px; 
 }
 
+/* For the tagline of the company */
 #tagline{
     font-family: 'Ubuntu Mono', monospace;
 }
 
+/* For the Sign Up/In buttons */
 .sign{
     height:30px;
     width:90px;
     color:white;
     background-color:blue;
-}
-
-#midButton{
-    display:flex;
-    justify-content:center;
-    height:100%;
 }

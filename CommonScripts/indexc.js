@@ -1,4 +1,5 @@
 // Header template added dynamically
+
 var template = '<div id="title">'+
 '<div id="company">ScriBBler</div>'+
 '<div id="tagline">Explore, Imagine, Create</div>'+
@@ -63,5 +64,5 @@ var template = '<div id="title">'+
 '</div>'+
 '</div>'+
 '</div>';
-document.getElementById('header').innerHTML += template;
 
+document.getElementById('header').innerHTML += template;

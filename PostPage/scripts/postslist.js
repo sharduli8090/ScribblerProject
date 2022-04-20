@@ -1,4 +1,5 @@
-// Array of Post objects
+// Array of Posts as objects
+
 var postlistArr = [
     {
         name:'Srishti Gupta',
@@ -35,7 +36,7 @@ function displayCards(postlistArr){
     document.getElementById('mainDiv').innerHTML = "";
 
     
-  for(var i=0;i<postlistArr.length;i++){
+    for(var i=0;i<postlistArr.length;i++){
 
     // Shortening the content of the post 
     var textCont = postlistArr[i].content;
@@ -82,24 +83,19 @@ function displayCards(postlistArr){
 // Calling the display card function
 displayCards(postlistArr);
 
-// function displayAPost(ind){
-//     var subTemp = postlistArr[i].subject;
-//     var nameTemp = postlistArr[i].name;
-//     var contTemp = postlistArr[i].content;
-//     document.getElementById('subHead').innerHTML = subTemp;
 
-// }
-
+// To open the Next Post Page
 function openPageCall(ind){
     window.open('../../ThirdPage/html/posts.html');
-    // displayAPost(ind);
 }
+
 
 // Function to delete a particular card
 function deleteCard(num){
     postlistArr.splice(num,1);
     displayCards(postlistArr);
 }
+
 
 
 // Function to display the modal of confirmation of deletion

@@ -1,4 +1,5 @@
-// For Create Post Modal
+// For Creating Post Modal
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
