@@ -23,12 +23,13 @@
     text-align: justify;
     font-family: 'Inconsolata', monospace;
     margin: 6%;
+    margin-bottom: 0px;
     margin-top: 0px;
     font-size: 20px;
 }
 
 /* For the Edit/Save Button */
-#edit{
+.edit{
     height: 40px;
     width: 80px;
     border: 0px;
@@ -38,7 +39,7 @@
 }
 
 /* When we hover on Edit/Save Button */
-#edit:hover{
+.edit:hover{
     border: 2px solid rgb(184, 7, 75);
     background-color: rgb(184, 7, 75);
 }
@@ -57,3 +58,19 @@
 [contenteditable]:focus {
     outline: 0px;
   } 
+
+
+
+/* For Like Feat */
+
+/* Whole Like Div*/
+#LikeDiv{
+    margin-left:6%;
+    margin-top: 4%;
+}
+
+/* Like Text */
+#likeText{
+    margin-top: 1%;
+    color: rgb(112, 112, 112);
+}
