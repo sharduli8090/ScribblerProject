@@ -71,7 +71,7 @@ function displayCards(postlistArr){
         '<div class="contentCard">'+
         '<p style="margin-bottom:0px;padding-bottom:0px;">'+shortCont+'...</p>'+
         '</div>'+
-        '<i class="fa fa-ellipsis-h fa-lg menuIcon" onclick=openPageCall('+i+')></i>'+
+        '<i class="fa fa-ellipsis-h fa-lg menuIcon" onclick=openPageCall()></i>'+
     '</div>';
 
     // Adding the template of card to the window
@@ -85,8 +85,8 @@ displayCards(postlistArr);
 
 
 // To open the Next Post Page
-function openPageCall(ind){
-    window.open('../../PostPage/html/post.html');
+function openPageCall(){
+    window.open('../html/post.html');
 }
 
 

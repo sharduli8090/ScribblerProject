@@ -57,7 +57,7 @@ function likeCount(){
     // else more than one like is there
     else{
 
-        var cnt = count+' people liked this!';
+        var cnt = count+' people like this!';
         document.getElementById('likeText').innerHTML = cnt;
 
     }
